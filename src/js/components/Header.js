@@ -12,7 +12,7 @@ export default class Header extends React.Component{
 	render(){
 		return (
 			<header>
-				<Icon name={ this.props.icon } />
+				<Icon name={ this.props.icon } className="white" />
 				<SidebarToggleButton />
 				<h1>{ this.props.title }</h1>
 				{ this.props.actions ? <div className="actions">{ this.props.actions }</div> : null }

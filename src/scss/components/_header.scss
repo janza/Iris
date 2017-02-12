@@ -2,7 +2,8 @@
 main {
 	header {
 		padding: 14px 20px;
-		background: #EEEEEE;
+		background: #000000;
+		color: #FFFFFF;
 		line-height: 24px;
 
 		h1 {
@@ -37,6 +38,7 @@ main {
 				line-height: 24px;
 				text-transform: uppercase;
 				min-width: 0;
+				color: #FFFFFF;
 			}
 		}
 	}

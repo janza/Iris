@@ -2,10 +2,10 @@
 
 body,
 html {
-	background: $off_white;
-	color: #000000;
+	background: $darkest_grey;
+	color: #FFFFFF;
 	font-family: "Archivo Narrow", Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 body {
@@ -103,7 +103,7 @@ h4 {
 
 	&.underline {
 		padding-bottom: 4px;
-		border-bottom: 1px solid #000000;
+		border-bottom: 1px solid lighten($darkest_grey, 3%);
 	}
 
 	&:not(:first-child){
