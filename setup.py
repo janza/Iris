@@ -26,7 +26,7 @@ setup(
         'Mopidy-Local-Images >= 1.0',
         'ConfigObj >= 5.0.6',
         'requests >= 2.0.0',
-        'tornado >= 3.2, < 5.0'
+        'tornado >= 3.2, < 5.1'
     ],
     classifiers=[
         'Environment :: No Input/Output (Daemon)',
